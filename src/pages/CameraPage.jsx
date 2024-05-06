@@ -11,7 +11,7 @@ export default function CameraPage() {
     <>
     <Title level={3}>Камеры</Title>
     <Divider/>
-    
+    sdfsdf
     </>
   )
 }
