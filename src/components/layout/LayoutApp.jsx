@@ -6,11 +6,13 @@ import {
   DesktopOutlined,
   FileOutlined,
   DashboardOutlined,
+  VideoCameraOutlined,
   TeamOutlined,
   BookOutlined,
 } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import HeaderApp from './HeaderApp';
+import FooterApp from './FooterApp';
 const { Header, Content, Footer, Sider } = Layout;
 function getItem(label, key, icon, children) {
   return {
@@ -23,6 +25,7 @@ function getItem(label, key, icon, children) {
 }
 const items = [
   getItem('Монитор', '/', <DashboardOutlined />), 
+  getItem('Камеры', '/videos', <VideoCameraOutlined />),
   getItem('Пользователи', '/users', <TeamOutlined />),
   getItem('Документация', '/docs', <FileOutlined />),
 
@@ -78,13 +81,8 @@ const LayoutApp = () => {
            
           </div>
         </Content>
-        <Footer
-          style={{
-            textAlign: 'center',
-          }}
-        >
-          Ant Design ©{new Date().getFullYear()} Created by Ant UED
-        </Footer>
+
+        <FooterApp/>
       </Layout>
     </Layout>
   );
