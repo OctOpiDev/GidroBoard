@@ -19,7 +19,7 @@ export default function Homepage() {
       </Card>
     </Col>
     <Col span={6}>
-      <Card title="Температура воды" bordered={false}>
+      <Card title="Температdура воды" bordered={false}>
         Card content
       </Card>
     </Col>
