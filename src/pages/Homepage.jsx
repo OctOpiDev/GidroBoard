@@ -9,7 +9,7 @@ import { Tiny } from '@ant-design/plots';
 export default function Homepage() {
   return (
     <>
-    <Title level={3}>Панель управленияса</Title>
+    <Title level={3}>Панель управления darknet</Title>
     <Divider/>
     <Row gutter={16} style={{paddingBottom: '24px'}}>
     <Col span={6}>
