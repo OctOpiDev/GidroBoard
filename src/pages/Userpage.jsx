@@ -71,7 +71,7 @@ const columns = [
 export default function Userpage() {
   return (
     <>
-        <Title level={3}>Пользователи</Title>
+        <Title level={3}>Пользовssатели</Title>
         <Divider />
         <Table columns={columns} dataSource={data} />
     </>
